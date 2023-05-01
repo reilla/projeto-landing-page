@@ -1,0 +1,541 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+header {
+  display: flex;
+  background-color: #ff904c;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px 27px 16px 25px;
+}
+
+.menu {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.right-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-menu {
+  background-color: white;
+  color: #444;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 0;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 15px 32px;
+  font-weight: 700;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background-image: url(Imagens/img-sessao-1.png);
+  background-position: 100%;
+  padding: 0 10%;
+  width: 100%;
+  background-size: cover;
+}
+
+.main-section h1 {
+  color: white;
+  font-size: 48px;
+  margin: 0px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.main-section h2 {
+  color: white;
+  font-size: 20px;
+  margin: 0px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.clients-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 100%;
+  background-color: #fff3ce;
+}
+
+.clients-section h2 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 28px;
+}
+
+.clients-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.clients-logo {
+  display: flex;
+  width: 90px;
+  margin-bottom: 30px;
+}
+
+.credit-card-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 500px;
+  width: 100%;
+}
+
+.credit-card-section .image-column {
+  background-image: url(Imagens/img-sessao-2.png);
+  height: 100%;
+  width: 50%;
+  background-size: cover;
+}
+
+.text-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  color: black;
+  background-color: white;
+  padding: 100px;
+}
+
+.text-column h2 {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.text-column p {
+  font-size: 16px;
+}
+
+.button-credit-card-section {
+  background-color: #ff904c;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 50%;
+  border: 0;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 15px 32px;
+  margin-top: 50px;
+}
+
+.account-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 500px;
+  width: 100%;
+}
+
+.account-section .image-column {
+  background-image: url(Imagens/img-sessao-3.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}
+
+.button-account-section {
+  background-color: #ff904c;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 50%;
+  border: 0;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 15px 32px;
+  margin-top: 50px;
+}
+
+.faq-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffbc59;
+  width: 100%;
+  height: 600px;
+}
+
+.faq-section h2 {
+  font-size: 28px;
+  margin: 30px;
+}
+
+.faq {
+  padding: 0 90px;
+}
+
+.faq-section h3 {
+  font-size: 22px;
+  padding-top: 10px;
+}
+
+.faq-section p {
+  padding: 5px 0px;
+}
+
+.button-article-section {
+  background-color: #fff3ce;
+  color: #444;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 20%;
+  border: 0;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 15px 32px;
+  margin-top: 50px;
+}
+
+#form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+}
+
+.form-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: black;
+  padding-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  font-size: 20px;
+  margin: 7px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  padding: 10px;
+}
+
+form button {
+  background-color: #ff904c;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 20%;
+  border: 0;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+  align-self: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #222;
+  align-items: baseline;
+  justify-content: space-around;
+  width: 100%;
+  height: 250px;
+  color: white;
+  padding: 50px;
+}
+
+footer p {
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.first-row-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.secund-row-footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  align-self: center;
+}
+
+.first-column-footer {
+  padding: 0 10px;
+}
+
+.contact-us {
+  margin-bottom: 10px;
+}
+
+.secund-column-footer {
+  padding: 0 120px;
+}
+
+.third-column-footer {
+  padding: 0 80px;
+}
+
+/* .fourth-column-footer {
+  padding: 0 10px;
+} */
+
+.insta-logo {
+  width: 30px;
+  margin: 5px;
+}
+
+.face-logo {
+  width: 30px;
+  margin: 5px;
+}
+
+.twitter-logo {
+  width: 30px;
+  margin: 5px;
+}
+
+.download-app {
+  display: flex;
+  flex-direction: column;
+}
+
+.download-text-footer {
+  margin-bottom: 10px;
+}
+
+.download-apple {
+  width: 100px;
+  padding-bottom: 5px;
+}
+
+.download-google {
+  width: 100px;
+}
+
+.whatsapp-logo {
+  width: 30px;
+  margin-left: 20px;
+}
+
+.whatsapp {
+  display: flex;
+  align-items: end;
+  padding-top: 20px;
+}
+
+.copywriting-rights {
+  font-size: 11px;
+}
+
+@media screen and (max-device-width: 1080px) {
+  header {
+    flex-direction: column;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    padding: 7px 0;
+  }
+
+  .header-logo {
+    margin-bottom: 20px;
+  }
+
+  .right-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .button-menu {
+    margin-top: 20px;
+  }
+
+  .main-section {
+    height: auto;
+    background-position: 70%;
+    padding: 10%;
+  }
+
+  .main-section h1 {
+    font-size: 28px;
+  }
+
+  .main-section h2 {
+    font-size: 16px;
+  }
+
+  .clients-section {
+    height: 100%;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .clients-row {
+    flex-wrap: wrap;
+  }
+
+  .credit-card-section {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .credit-card-section .image-column,
+  .account-section .image-column {
+    width: 100%;
+    height: 300px;
+    background-position: 40%;
+  }
+
+  .text-column {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .button-credit-card-section,
+  .button-account-section {
+    align-self: center;
+  }
+
+  .account-section {
+    flex-direction: column-reverse;
+    height: 100%;
+  }
+
+  .faq-section {
+    height: auto;
+  }
+
+  .faq {
+    padding: 0 30px;
+  }
+
+  .button-article-section {
+    width: auto;
+    margin-bottom: 50px;
+  }
+
+  #form-section {
+    height: 100%;
+    padding: 30px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  input {
+    font-size: 18px;
+  }
+
+  form button {
+    width: auto;
+  }
+
+  footer {
+    height: auto;
+    padding: 30px;
+  }
+
+  .first-row-footer {
+    flex-direction: column;
+  }
+
+  .first-column-footer {
+    padding: 0 30px;
+  }
+
+  .secund-column-footer {
+    padding: 10px 30px;
+  }
+
+  .third-column-footer {
+    padding: 10px 30px;
+  }
+
+  .social-media-text {
+    margin-top: 20px;
+  }
+
+  .whatsapp {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .whatsapp-logo {
+    margin-left: 22px;
+  }
+
+  .download-app {
+    flex-direction: row;
+  }
+
+  .download-apple {
+    margin-right: 5px;
+    padding: 0 1px;
+  }
+}
